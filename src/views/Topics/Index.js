@@ -1,12 +1,13 @@
 import { h } from "hyperapp";
 import { Link, Route } from "@hyperapp/router";
-import Components from './Components.js';
-import SingleStateTree from './SingleStateTree.js';
-import Routing from './Routing.js';
+
+import Components from './Components';
+import SingleStateTree from './SingleStateTree';
+import Routing from './Routing';
 
 export default ({ match }) => (
   <div key="topics">
-    <h2>Topics</h2>
+    <h1>Topics</h1>
     <ul>
       <li>
         <Link to={`${match.url}/components`}>Components</Link>
