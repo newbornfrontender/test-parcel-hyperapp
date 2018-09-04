@@ -13,6 +13,11 @@ const actions = {
 
 const view = state => <App />;
 
-const main = app(state, actions, view, document.body);
+const main = app(
+  state,
+  actions,
+  view,
+  document.body,
+);
 
 const unsubscribe = location.subscribe(main.location);
