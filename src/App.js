@@ -1,3 +1,11 @@
-import Counter from './components/Counter.js';
+import { h } from "hyperapp";
 
-export default Counter;
+import SiteHeader from './components/SiteHeader';
+import SiteMain from './components/SiteMain';
+
+export default () => (
+  <section>
+    <SiteHeader />
+    <SiteMain />
+  </section>
+);
