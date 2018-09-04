@@ -1,0 +1,8 @@
+{
+  "name": "test-parcel-hyperapp",
+  "version": "1.0.0",
+  "description": "Тестовый проект на Hyperapp и Parcel",
+  "repository": "https://github.com/newbornfrontender/test-parcel-hyperapp.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT"
+}
