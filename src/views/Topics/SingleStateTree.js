@@ -1,3 +1,3 @@
 import { h } from "hyperapp";
 
-export default () => <h3>SingleStateTree</h3>;
+export default () => <h2>SingleStateTree</h2>;
