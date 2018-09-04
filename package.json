@@ -2,10 +2,16 @@
   "name": "test-parcel-hyperapp",
   "version": "1.0.0",
   "description": "Тестовый проект на Hyperapp и Parcel",
+  "scripts": {
+    "serve": "parcel ./index.html",
+    "build": "parcel build ./index.html --public-url ./"
+  },
   "repository": "https://github.com/newbornfrontender/test-parcel-hyperapp.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
     "parcel-bundler": "^1.9.7"
   },
   "dependencies": {
