@@ -1,3 +1,3 @@
 import { h } from "hyperapp";
 
-export default () => <h2>Home</h2>;
+export default () => <h1>Home</h1>;
