@@ -4,6 +4,7 @@
     ["transform-react-jsx", {
         "pragma": "h"
       }
-    ]
+    ],
+    "syntax-dynamic-import"
   ]
 }
