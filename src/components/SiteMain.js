@@ -1,4 +1,4 @@
-import { h } from "hyperapp";
+import { h, Lazy  } from "hyperapp";
 import { Route } from "@hyperapp/router";
 
 import Home from '../views/Home';
@@ -9,16 +9,39 @@ export default () => (
   <main>
     <Route
       path="/"
-      render={ Home }
+      render={Home}
     />
     <Route
       path="/about"
-      render={ About }
+      render={About}
     />
     <Route
       parent
       path="/topics"
-      render={ Topics }
+      render={Topics}
     />
   </main>
 );
+
+// export default () => (
+//   <main>
+//     <Route
+//       path="/"
+//       render={Home}
+//     />
+//     <Route
+//       path="/about"
+//       render={
+//         () => import('../views/About')
+//           .then(({ default: page }) => {
+//             console.log(page);
+//         })
+//       }
+//     />
+//     <Route
+//       parent
+//       path="/topics"
+//       render={Topics}
+//     />
+//   </main>
+// );
