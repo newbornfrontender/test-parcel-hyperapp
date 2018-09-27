@@ -31,11 +31,7 @@ export default () => (
     />
     <Route
       path="/about"
-      render={() => import('../views/About')
-        .then(page => {
-          const { About } = page;
-          console.log(About);
-      })}
+      render={() => import('../views/About')}
     />
     <Route
       parent
